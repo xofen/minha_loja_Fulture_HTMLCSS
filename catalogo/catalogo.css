@@ -1,0 +1,74 @@
+/* _________ ELEMENTOS COMUNS _________ */
+@media (max-width:801px) {
+
+}
+
+@media (min-width:801px) {
+
+}
+
+section {
+    padding: 2rem 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: .4rem 0;
+}
+
+/* _________ HEADER _________ */
+@media (max-width:801px) {
+    header {
+        background-image: url("../imgs/captainmarvelheader_Mobile.webp");
+    }
+
+    #logo_section {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:801px) {
+    header {
+        background-image: url("../imgs/captainmarvelheader.webp");
+    }
+}
+
+/* _________ CATALOGO _________ */
+@media (max-width:801px) {
+    
+}
+
+@media (min-width:801px) {
+    #catalogo ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #catalogo ul li {
+        margin-bottom: 2rem;
+    }
+}
+
+#catalogo ul {
+    line-height: 10rem;
+}
+
+#catalogo li {
+    display: inline-block;
+    width: 80%;
+
+    text-align: left;
+    line-height: 2rem;
+}
+
+#catalogo img {
+    width: 100%;
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+.preco {
+    font-weight: 700;
+    font-style: italic;
+}

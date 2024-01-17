@@ -1,0 +1,106 @@
+/* _________ ELEMENTOS COMUNS _________ */
+@media (max-width:801px) {
+
+}
+
+@media (min-width:801px) {
+    p {
+        text-align: left;
+    }
+}
+
+section {
+    padding: 2rem 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+/* _________ HEADER _________ */
+@media (max-width:801px) {
+    header {
+        background-image: url("./imgs/spidermanheader_mobile.webp");
+    }
+}
+
+@media (min-width:801px) {
+    header {
+        background-image: url("./imgs/spidermanheader.webp");
+    }
+}
+
+/* _________ QUEM SOMOS _________ */
+@media (max-width:801px) {
+    #quem_somos {
+        background-image: linear-gradient(var(--cor-primaria), var(--cor-secundaria));
+    }
+}
+
+@media (min-width:801px) {
+    #quem_somos {
+        background-image: url("./imgs/thor_header.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40svh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 4fr;
+    }
+
+    #quem_somos .titulo {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+
+        width: max-content;
+        margin: 0 auto;
+    }
+        
+    #quem_somos .texto {
+        grid-column: 2 / 3;
+        grid-row: 2 / 2;
+    }
+}
+
+
+/* _________ CATALOGO _________ */
+@media (max-width:801px) {
+
+}
+
+@media (min-width:801px) {
+    #catalogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 4fr;
+    }
+
+    #catalogo .titulo {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+
+        width: max-content;
+        margin: 0 auto;
+    }
+        
+    #catalogo .texto {
+        grid-column: 2 / 3;
+        grid-row: 2 / 2;
+    }
+}
+
+#imagem_bonecos {
+    background-image: url("./imgs/bonecos.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: 25svh;
+    margin-top: 2rem;
+}
