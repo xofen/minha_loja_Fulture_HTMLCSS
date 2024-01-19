@@ -1,10 +1,9 @@
 /* _________ ELEMENTOS COMUNS _________ */
-@media (max-width:801px) {
-
-}
-
 @media (min-width:801px) {
-
+    #logo_section {
+        left: 7rem;
+        bottom: 2rem;
+    }
 }
 
 section {
@@ -17,6 +16,7 @@ section {
 p {
     margin: .4rem 0;
 }
+
 
 /* _________ HEADER _________ */
 @media (max-width:801px) {
@@ -34,6 +34,7 @@ p {
         background-image: url("../imgs/captainmarvelheader.webp");
     }
 }
+
 
 /* _________ CATALOGO _________ */
 @media (max-width:801px) {

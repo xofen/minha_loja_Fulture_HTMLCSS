@@ -44,6 +44,11 @@ hr {
     color: var(--cor-primaria);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .white_text {
     color: white;
 }
@@ -53,8 +58,8 @@ hr {
     #logo_section {
         height: 15svh;
         position: absolute;
-        left: 1rem;
-        bottom: 1.3rem;
+        left: 1.7rem;
+        bottom: 1.5rem;
     }
 }
 
@@ -69,8 +74,8 @@ hr {
     #logo_section {
         height: 15svh;
         position: absolute;
-        left: 4rem;
-        bottom: 6rem;
+        left: 10rem;
+        bottom: 8rem;
     }
 }
 
@@ -79,7 +84,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 30rem;
+    height: 26rem;
 }
 
 #logo_site {

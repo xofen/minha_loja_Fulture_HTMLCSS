@@ -1,8 +1,4 @@
 /* _________ ELEMENTOS COMUNS _________ */
-@media (max-width:801px) {
-
-}
-
 @media (min-width:801px) {
     p {
         text-align: left;
@@ -20,6 +16,7 @@ p {
     margin: 1rem 0;
 }
 
+
 /* _________ HEADER _________ */
 @media (max-width:801px) {
     header {
@@ -36,6 +33,7 @@ p {
         background-image: url("../imgs/contatoheader.webp");
     }
 }
+
 
 /* _________ CONTATO _________ */
 @media (max-width:801px) {
